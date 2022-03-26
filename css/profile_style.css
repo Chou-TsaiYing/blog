@@ -1,0 +1,122 @@
+#main-page{
+    width: 80%;
+}
+nav h4{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #717D7E;
+}
+nav ul li a{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #7EB1B1;
+}
+.action_menu{
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border-radius: 10px;
+    width: 5vw;
+    top: 8vw;
+    right: 5vw;
+    display: none;
+}
+.action_menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.action_menu ul li{
+    width: 100%;
+}
+.action_menu ul li i{
+    padding-right: 10px;
+}
+.action_menu ul li:hover{
+    cursor: pointer;
+}
+.user-card h4{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #717D7E;
+    font-size: 30px;
+    margin-top: 10%;
+}
+.user-card img{
+    background-color: #EBF5FB;
+    max-width: 45%;
+    height: auto;
+}
+.user-card .btn-post{
+    background-color: white;
+    color: #7EB1B1;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 25px;
+    margin-top: auto;
+}
+.btn-post:hover{
+    background-color: #717D7E;
+    color: white;
+}
+.information-header h5{
+    text-align: center;
+    color:white;
+    font-size: 25px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.information-body h5,
+.form-group .modal-label{
+    color: #717D7E;
+    font-family:  Comic Sans MS, Comic Sans, cursive;
+}
+
+.header{
+    width:11%;
+    font-size: 18px;
+    margin-left: 15px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: white;
+}
+.lottery{
+    width:350px;
+    height:350px; 
+    position:relative; 
+    margin:35px auto;
+} 
+#turntable{
+    width: 35vmax; 
+    height: 25vmax; 
+    background-size: 20vmax 20vmax;
+    background-image: url('/image/turntable.jpg');
+    background-repeat:no-repeat;
+}
+#start{
+    position:absolute; 
+    top: 6vmax; 
+    left: 6.5Vmax;
+}
+#startbtn{
+    width: 7vmax;
+    height: 8vmax;
+    cursor: pointer;
+}
+@media (max-width: 992px){
+    #main-page{
+        width: 100%;
+    }
+    #turntable{
+        width: 40vmax; 
+        height: 40vmax; 
+        background-size: 40vmax 40vmax;
+        background-image: url('/image/turntable.jpg');
+        background-repeat:no-repeat;
+    }
+    #start{
+        position:absolute; 
+        top: 12.5vmax; 
+        left: 12.5Vmax;
+    }
+    #startbtn{
+        width: 15vmax;
+        height: 15vmax;
+        cursor: pointer;
+    }
+}

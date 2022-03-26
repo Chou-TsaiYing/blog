@@ -1,0 +1,16 @@
+h1{
+    color: #227392;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    font-size: 28px;
+    margin-top: 150px;
+}
+a{
+    color: #227392;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    font-size: 17px;
+    margin-top: 160px;
+    cursor: pointer;
+}
+.text{
+    text-align: center;
+}
