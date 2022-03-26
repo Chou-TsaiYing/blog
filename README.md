@@ -38,20 +38,20 @@ Register
 <img src="https://i.imgur.com/rMGQTLp.gif" width="1000">
 <img src="https://i.imgur.com/swtY1ij.png" width="1000">
 
-Search post
+Search posts
 * Enter title of th posts in the search bar to do a live search. 
 
 Read the articles
 * Click the title to read the whole content of the posts.
 
-Comment and like the post
+Comment and like the posts
 * Users can left the comments and press the like button of the posts that have posted by others.
 
 ### Main page
 ---
 ![](https://i.imgur.com/jgzoF86.png)
 
-Post, edit, and delete the article
+Post, edit, and delete the articles
 * Users can post the articles in their own page.
 * After posting the articles, users can edit title and content of the posts.
 * Users can delete the posts that have posted.
